@@ -9,6 +9,7 @@ import { CompetentieModule } from './competentie/competentie.module';
 import { MateriaalModule } from './materiaal/materiaal.module';
 import { OpleidingModule } from './opleiding/opleiding.module';
 import { GroepModule } from './groep/groep.module';
+import { TaakModule } from './taak/taak.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { GroepModule } from './groep/groep.module';
     MateriaalModule,
     OpleidingModule,
     GroepModule,
+    TaakModule,
   ],
   controllers: [AppController],
   providers: [AppService],
